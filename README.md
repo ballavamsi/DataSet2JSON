@@ -214,11 +214,12 @@ Explaining Relation	(Right of !):
 * Right part (1^Books) decides where the object should be created and the object name
 * The result of the join will be appended to the root node with sub node name as Books
 
-> <# parent table>^<parent columnname>:<# child table>^<column name of child>~<# table where the object should be created>^<Object name>
+````
+ <# parent table>^<parent columnname>:<# child table>^<column name of child>~<# table where the object should be created>^<Object name>
 
 : [colon this means equals]
 ~ [values after tilda will say where & how the json value should be stored]
-
+````
 
 ### Let us see another example:
 
