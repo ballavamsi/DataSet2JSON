@@ -71,7 +71,7 @@ DataSet2JSON.Formatter.FormatDataSet(ds);
 ````
 
 
-##Real Time Example
+### Real Time Example
 
 ````
 -- SQL 
@@ -79,7 +79,7 @@ SELECT '1:Books';
 SELECT id, booktitle FROM tbl_books;
 ````
 
--- Code Behind
+### Code Behind
 * Call Stored Procedure and fill DataSet (ds) using DataAdapter
 * Pass dataset to the DataSet2JSON Formatter to get the JSON string
 
@@ -87,9 +87,9 @@ SELECT id, booktitle FROM tbl_books;
 DataSet2JSON.Formatter.FormatDataSet(ds); 
 ````
 
-# Types of configuration settings and difference in JSON output
+## Types of configuration settings and difference in JSON output
 
-* change id to BookID and booktitle to Title in JSON string
+* Change id to BookID and booktitle to Title in JSON string
 ````
 -- SQL 
 SELECT '1:Books';
@@ -427,3 +427,6 @@ After the Formatter executed the "Rigth Side" & "Left Side" the output of JSON w
 * The left of seperator "!" should be Output objects and the right side should be relations.
 * Use :single to get single json object. (ex: { "a":"a1","b":"b1"})
 * Use :singlevar to get single variable object  (ex: "a":"a1" )
+
+
+Advanced 
