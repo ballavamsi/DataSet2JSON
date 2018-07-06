@@ -1,5 +1,7 @@
 As the name suggests, this will convert the DataSet to JSON output .
 
+[Nuget link (https://www.nuget.org/packages/DataSet2JSON/)]:https://www.nuget.org/packages/DataSet2JSON/
+
 ## When is this useful for you?
 * You have a dataset and you need to convert all the datatables or selected set of tables in the dataset to JSON, then this package will help you achieve that with minimal effort
 
@@ -210,7 +212,7 @@ Explaining Relation	(Right of !):
 * Right part (1^Books) decides where the object should be created and the object name
 * The result of the join will be appended to the root node with sub node name as Books
 
-<# parent table>^<parent columnname>:<# child table>^<column name of child>~<# table where the object should be created>^<Object name>
+> <# parent table>^<parent columnname>:<# child table>^<column name of child>~<# table where the object should be created>^<Object name>
 
 : [colon this means equals]
 ~ [values after tilda will say where & how the json value should be stored]
@@ -226,17 +228,18 @@ select '1:Genres,4:UserDetails:single!1^id:2^genreid~1^Books|2^authorid:3^id~2^A
 Let us read/understand this configuration.
 
 Splitting the configuration into 2 parts by (!)
-Right Side:
-	> 1^id:2^genreid~1^Books|2^authorid:3^id~2^Author:single
-Left Side:
-	> 1:Genres,4:UserDetails:single
+* Right Side:
+	* `1^id:2^genreid~1^Books|2^authorid:3^id~2^Author:single`
+* Left Side:
+	* `1:Genres,4:UserDetails:single`
 	
 Explaining Right side:
 
 ### We are again splitting this part by (|)
+````
 Part A: 1^id:2^genreid~1^Books
 Part B: 2^authorid:3^id~2^Author:single
-
+````
 > Important thing is that, the relations configuration should always will be considered from right to left. The last relations will be executed first and so on.
 The above statement means "Part B" will be executed first and next "Part A" will be executed.
 Let us see how the JSON object will be executed in the background . The sequence
@@ -414,10 +417,10 @@ After the Formatter executed the "Rigth Side" & "Left Side" the output of JSON w
 ````
 
 
-Points to Note:
+## Points to Note:
 
-*Multiple relations are seperated by "|" in the config. (PartA|PartB)
-*Multiple Output objects are seperated by "," in the config. (1:Genres,4:UserDetails:single)
-*The left of seperator "!" should be Output objects and the right side should be relations.
-*Use :single to get single json object. (ex: { "a":"a1","b":"b1"})
-*Use :singlevar to get single variable object  (ex: "a":"a1" )
+* Multiple relations are seperated by "|" in the config. (PartA|PartB)
+* Multiple Output objects are seperated by "," in the config. (1:Genres,4:UserDetails:single)
+* The left of seperator "!" should be Output objects and the right side should be relations.
+* Use :single to get single json object. (ex: { "a":"a1","b":"b1"})
+* Use :singlevar to get single variable object  (ex: "a":"a1" )
