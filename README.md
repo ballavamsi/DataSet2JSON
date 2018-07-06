@@ -352,14 +352,14 @@ The is how the JSON will be . This table1 JSON created with the configurations P
 			}]
 ````
 
-
 The "Right Side" of the configuration will only generate relations.
 If you want the generated output in the JSON, then you should mention it in the "Left Side" in the below format.
+````
 1:Genres,4:UserDetails:single
-
-Explaining:
-*(1:Genres) All the data in table1 should be created in "Genres"
-*(4:UserDetails:single) All the table4 data should be created in "UserDetails" as JSON Single object.
+````
+### Explaining:
+* (1:Genres) All the data in table1 should be created in "Genres"
+* (4:UserDetails:single) All the table4 data should be created in "UserDetails" as JSON Single object.
 
 After the Formatter executed the "Rigth Side" & "Left Side" the output of JSON will be as below.
 
