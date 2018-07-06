@@ -21,8 +21,9 @@ You need to add a configuration string and this string should be the first table
 
 The syntax for the configuration string is as follows
 
+````
 "<n>:<Name of the root node><:single or :singlevar>"
-
+````
 * The first parameter indicates the position of the datatable in the dataset
 * The second parameter indicates the name given to the datatable. This will appear as the name of the root node in the JSON object
 * The third part of the configuration string is flag which lets the formatter know if the table returned has a single row output (:single) or a single cell output (:singlevar). This is an optional parameter.
