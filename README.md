@@ -1,7 +1,9 @@
 As the name suggests, this will convert the DataSet to JSON output .
 
-[Nuget link (https://www.nuget.org/packages/DataSet2JSON/)]:https://www.nuget.org/packages/DataSet2JSON/
-
+Link to download DataSet2JSON package : https://www.nuget.org/packages/DataSet2JSON/
+````
+Install-Package DataSet2JSON
+````
 ## When is this useful for you?
 * You have a dataset and you need to convert all the datatables or selected set of tables in the dataset to JSON, then this package will help you achieve that with minimal effort
 
