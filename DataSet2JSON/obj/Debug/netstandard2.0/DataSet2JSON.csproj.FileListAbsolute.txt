@@ -1,0 +1,9 @@
+c:\users\vamsi.srinivas.balla\source\repos\DataSet2JSON\DataSet2JSON\bin\Debug\netstandard2.0\DataSet2JSON.deps.json
+c:\users\vamsi.srinivas.balla\source\repos\DataSet2JSON\DataSet2JSON\bin\Debug\netstandard2.0\DataSet2JSON.dll
+c:\users\vamsi.srinivas.balla\source\repos\DataSet2JSON\DataSet2JSON\obj\Debug\netstandard2.0\DataSet2JSON.csprojAssemblyReference.cache
+c:\users\vamsi.srinivas.balla\source\repos\DataSet2JSON\DataSet2JSON\obj\Debug\netstandard2.0\DataSet2JSON.csproj.CoreCompileInputs.cache
+c:\users\vamsi.srinivas.balla\source\repos\DataSet2JSON\DataSet2JSON\obj\Debug\netstandard2.0\DataSet2JSON.AssemblyInfoInputs.cache
+c:\users\vamsi.srinivas.balla\source\repos\DataSet2JSON\DataSet2JSON\obj\Debug\netstandard2.0\DataSet2JSON.AssemblyInfo.cs
+c:\users\vamsi.srinivas.balla\source\repos\DataSet2JSON\DataSet2JSON\bin\Debug\netstandard2.0\DataSet2JSON.pdb
+c:\users\vamsi.srinivas.balla\source\repos\DataSet2JSON\DataSet2JSON\obj\Debug\netstandard2.0\DataSet2JSON.dll
+c:\users\vamsi.srinivas.balla\source\repos\DataSet2JSON\DataSet2JSON\obj\Debug\netstandard2.0\DataSet2JSON.pdb

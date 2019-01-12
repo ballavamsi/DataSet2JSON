@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>This will be converting the passed DataSet to JSON based on the configuration provided.</Description>
+    <PackageTags>DataSet, JSON, Convertor, Formatter.</PackageTags>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Company>DataSet2JSON</Company>
+    <Authors>ballavamsi</Authors>
+    <Product />
+    <PackageReleaseNotes>Version 1.0 Packing with Nuget</PackageReleaseNotes>
+    <PackageId>DataSet2JSON</PackageId>
+    <ApplicationIcon />
+    <OutputType>Library</OutputType>
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Newtonsoft.Json.Schema" Version="3.0.10" />
+  </ItemGroup>
+
+</Project>

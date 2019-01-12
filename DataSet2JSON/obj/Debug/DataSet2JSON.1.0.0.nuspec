@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DataSet2JSON</id>
+    <version>1.0.0</version>
+    <authors>ballavamsi</authors>
+    <owners>ballavamsi</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This will be converting the passed DataSet to JSON based on the configuration provided.</description>
+    <releaseNotes>Version 1.0 Packing with Nuget</releaseNotes>
+    <tags>DataSet, JSON, Convertor, Formatter.</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.CSharp" version="4.5.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="11.0.2" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json.Schema" version="3.0.10" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="c:\users\vamsi.srinivas.balla\source\repos\DataSet2JSON\DataSet2JSON\bin\Debug\netstandard2.0\DataSet2JSON.dll" target="lib\netstandard2.0\DataSet2JSON.dll" />
+  </files>
+</package>
