@@ -1,4 +1,4 @@
-As the name suggests, this will convert the DataSet to JSON output .
+This will convert the DataSet to JSON output .
 
 Link to download DataSet2JSON package : https://www.nuget.org/packages/DataSet2JSON/
 ````
