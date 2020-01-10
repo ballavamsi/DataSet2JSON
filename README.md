@@ -7,6 +7,11 @@ Install-Package DataSet2JSON
 ## When is this useful for you?
 * You have a dataset and you need to convert all the datatables or selected set of tables in the dataset to JSON, then this package will help you achieve that with minimal effort
 
+## Exeception logging (Mandatory)
+````
+DataSet2JSON.ErrorLog.logFilePath = @"C:\logs\yourlogs.txt";
+````
+
 ## Example
 Let us assume that you have 2 datatables in a dataset
 * Tables[0] - dtBooks
