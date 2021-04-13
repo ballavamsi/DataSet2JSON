@@ -4,7 +4,6 @@
     <id>DataSet2JSON</id>
     <version>1.0.0</version>
     <authors>ballavamsi</authors>
-    <owners>ballavamsi</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>This will be converting the passed DataSet to JSON based on the configuration provided.</description>
     <releaseNotes>Version 1.0 Packing with Nuget</releaseNotes>
@@ -12,12 +11,12 @@
     <dependencies>
       <group targetFramework=".NETStandard2.0">
         <dependency id="Microsoft.CSharp" version="4.5.0" exclude="Build,Analyzers" />
-        <dependency id="Newtonsoft.Json" version="11.0.2" exclude="Build,Analyzers" />
-        <dependency id="Newtonsoft.Json.Schema" version="3.0.10" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.1" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json.Schema" version="3.0.14" exclude="Build,Analyzers" />
       </group>
     </dependencies>
   </metadata>
   <files>
-    <file src="c:\users\vamsi.srinivas.balla\source\repos\DataSet2JSON\DataSet2JSON\bin\Debug\netstandard2.0\DataSet2JSON.dll" target="lib\netstandard2.0\DataSet2JSON.dll" />
+    <file src="D:\GitHub\DataSet2JSON\DataSet2JSON\bin\Debug\netstandard2.0\DataSet2JSON.dll" target="lib\netstandard2.0\DataSet2JSON.dll" />
   </files>
 </package>

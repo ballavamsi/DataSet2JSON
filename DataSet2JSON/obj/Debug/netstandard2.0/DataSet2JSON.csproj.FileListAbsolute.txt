@@ -7,3 +7,12 @@ c:\users\vamsi.srinivas.balla\source\repos\DataSet2JSON\DataSet2JSON\obj\Debug\n
 c:\users\vamsi.srinivas.balla\source\repos\DataSet2JSON\DataSet2JSON\bin\Debug\netstandard2.0\DataSet2JSON.pdb
 c:\users\vamsi.srinivas.balla\source\repos\DataSet2JSON\DataSet2JSON\obj\Debug\netstandard2.0\DataSet2JSON.dll
 c:\users\vamsi.srinivas.balla\source\repos\DataSet2JSON\DataSet2JSON\obj\Debug\netstandard2.0\DataSet2JSON.pdb
+D:\GitHub\DataSet2JSON\DataSet2JSON\bin\Debug\netstandard2.0\DataSet2JSON.deps.json
+D:\GitHub\DataSet2JSON\DataSet2JSON\bin\Debug\netstandard2.0\DataSet2JSON.dll
+D:\GitHub\DataSet2JSON\DataSet2JSON\bin\Debug\netstandard2.0\DataSet2JSON.pdb
+D:\GitHub\DataSet2JSON\DataSet2JSON\obj\Debug\netstandard2.0\DataSet2JSON.csprojAssemblyReference.cache
+D:\GitHub\DataSet2JSON\DataSet2JSON\obj\Debug\netstandard2.0\DataSet2JSON.AssemblyInfoInputs.cache
+D:\GitHub\DataSet2JSON\DataSet2JSON\obj\Debug\netstandard2.0\DataSet2JSON.AssemblyInfo.cs
+D:\GitHub\DataSet2JSON\DataSet2JSON\obj\Debug\netstandard2.0\DataSet2JSON.csproj.CoreCompileInputs.cache
+D:\GitHub\DataSet2JSON\DataSet2JSON\obj\Debug\netstandard2.0\DataSet2JSON.dll
+D:\GitHub\DataSet2JSON\DataSet2JSON\obj\Debug\netstandard2.0\DataSet2JSON.pdb

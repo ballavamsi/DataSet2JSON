@@ -5,7 +5,7 @@ namespace DataSet2JSON
 {
     public static class ErrorLog
     {
-        public static string logFilePath { get; set; }
+        public static string logFilePath { get; set; } = AppContext.BaseDirectory;
 
         public static void WriteExLog(Exception ex)
         {
@@ -14,6 +14,7 @@ namespace DataSet2JSON
             try
             {
                 DirectoryInfo logDirInfo = null;
+                logFilePath = logFilePath + $"error-{DateTime.Now.Day}-{DateTime.Now.Month}-{DateTime.Now.Year}.log"; 
                 FileInfo logFileInfo = new FileInfo(logFilePath);
                 logDirInfo = new DirectoryInfo(logFileInfo.DirectoryName);
                 if (!logDirInfo.Exists)

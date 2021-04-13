@@ -412,7 +412,7 @@ namespace DataSet2JSON
             catch (Exception ex)
             {
                 ErrorLog.WriteExLog(ex);
-                return ReturnCustomError(ex);
+                return ReturnCustomError(ex,"Please check the stored procedure OneAPI configuration.");
             }
 
         }
@@ -459,24 +459,7 @@ namespace DataSet2JSON
 
         private static string ReturnCustomError(Exception ex, string additionMessage = "")
         {
-            DataSet ds_error = new DataSet();
-
-            DataTable dt0 = new DataTable();
-            dt0.Columns.Add("Config");
-            dt0.Rows.Add("1:CustomFormatterError");
-
-            DataTable dt = new DataTable();
-            dt.Columns.Add("Error Message");
-            dt.Columns.Add("Error Stack Trace");
-            dt.Columns.Add("Additional Message");
-
-
-            ds_error.Tables.Add(dt0);
-            ds_error.Tables.Add(dt);
-
-            dt.Rows.Add(ex.Message, ex.StackTrace, additionMessage);
-
-            return FormatDataSet(ds_error, "JSON");
+            return ReturnErrorStatus(ex, "500", additionMessage);
         }
 
         public static StringBuilder FormatDataTable(DataTable table, string FormatType)
@@ -522,7 +505,7 @@ namespace DataSet2JSON
 
             DataTable dt0 = new DataTable();
             dt0.Columns.Add("Config");
-            dt0.Rows.Add("1:Status");
+            dt0.Rows.Add("1:Status:single");
 
             DataTable dt = new DataTable();
             dt.Columns.Add("ErrorCode");
@@ -531,7 +514,7 @@ namespace DataSet2JSON
             ds.Tables.Add(dt0);
             ds.Tables.Add(dt);
 
-            dt.Rows.Add(errorcode, errordescription);
+            dt.Rows.Add(errorcode, errordescription + $" Message- {ex.Message}");//, Stack: {ex.StackTrace}");
 
             return FormatDataSet(ds, "JSON");
         }
